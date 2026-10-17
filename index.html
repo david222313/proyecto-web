@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Millonarios FC - Sitio Oficial</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVEGACIÓN ===== -->
+  <header class="header">
+    <div class="header__container">
+      <a href="#" class="header__logo">
+        <img src="img/logo-millonarios.png" alt="Millonarios FC" />
+      </a>
+
+      <button class="header__toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="header__nav" id="mainNav">
+        <ul class="header__menu">
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#partidos">Partidos</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#tienda">Tienda</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO / BANNER PRINCIPAL ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">AZUL & BLANCO</h1>
+      <p class="hero__subtitle">Más de 75 años de historia embajadora</p>
+      <a href="#noticias" class="btn btn--primary">Ver noticias</a>
+    </div>
+  </section>
+
+  <!-- ===== SECCIÓN NOTICIAS ===== -->
+  <section class="news" id="noticias">
+    <div class="container">
+      <h2 class="section__title">Últimas Noticias</h2>
+
+      <div class="news__grid">
+        <article class="news__card">
+          <img src="img/noticia1.jpg" alt="Noticia 1" class="news__img" />
+          <div class="news__body">
+            <span class="news__tag">Liga</span>
+            <h3 class="news__heading">Millonarios empata en la fecha 8</h3>
+            <p class="news__text">El equipo embajador sumó un punto valioso en su visita a Equidad.</p>
+            <a href="#" class="news__link">Leer más →</a>
+          </div>
+        </article>
+
+        <article class="news__card">
+          <img src="img/noticia2.jpg" alt="Noticia 2" class="news__img" />
+          <div class="news__body">
+            <span class="news__tag">Pretemporada</span>
+            <h3 class="news__heading">Números y datos previos al duelo contra América</h3>
+            <p class="news__text">Todo lo que necesitas saber antes del clásico.</p>
+            <a href="#" class="news__link">Leer más →</a>
+          </div>
+        </article>
+
+        <article class="news__card">
+          <img src="img/noticia3.jpg" alt="Noticia 3" class="news__img" />
+          <div class="news__body">
+            <span class="news__tag">Fotos</span>
+            <h3 class="news__heading">Galería: Millonarios vs Equidad</h3>
+            <p class="news__text">Revive los mejores momentos del compromiso en El Campín.</p>
+            <a href="#" class="news__link">Leer más →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECCIÓN PARTIDOS ===== -->
+  <section class="matches" id="partidos">
+    <div class="container">
+      <h2 class="section__title section__title--light">Próximos Partidos</h2>
+
+      <div class="matches__list">
+        <div class="match">
+          <div class="match__teams">
+            <span class="match__team">Millonarios</span>
+            <span class="match__vs">VS</span>
+            <span class="match__team">América</span>
+          </div>
+          <div class="match__info">
+            <span class="match__date">15 de mayo, 2025</span>
+            <span class="match__stadium">El Campín</span>
+          </div>
+        </div>
+
+        <div class="match">
+          <div class="match__teams">
+            <span class="match__team">Pasto</span>
+            <span class="match__vs">VS</span>
+            <span class="match__team">Millonarios</span>
+          </div>
+          <div class="match__info">
+            <span class="match__date">22 de mayo, 2025</span>
+            <span class="match__stadium">Departamental Libertad</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <img src="img/logo-millonarios.png" alt="Millonarios FC" class="footer__logo" />
+        <p class="footer__slogan">Azul & Blanco Millonarios FC S.A.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#">Equipos</a></li>
+          <li><a href="#">Entradas</a></li>
+          <li><a href="#">Tienda MFC</a></li>
+          <li><a href="#">Academia</a></li>
+          <li><a href="#">Contáctanos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__social">
+        <h4>Redes Sociales</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">X (Twitter)</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2025 Azul & Blanco Millonarios FC S.A. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
